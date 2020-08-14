@@ -4,7 +4,7 @@ create table netflix (
 	genre varchar,
 	year varchar,
 	imdb_rating float,
-	writers varchar,
+	writer varchar,
 	network varchar
 );
 
@@ -13,7 +13,7 @@ create table hulu (
 	title varchar,
 	genre varchar,
 	year varchar,
-	writers varchar,
+	writer varchar,
 	imdb_rating float,
 	network varchar
 );
@@ -24,6 +24,6 @@ create table prime (
 	genre varchar,
 	year varchar,
 	imdb_rating float,
-	writers varchar,
+	writer varchar,
 	network varchar
 );
