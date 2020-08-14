@@ -16,7 +16,7 @@ We decided to use a **SQL** database (PostgreSQL) to load our final tables. We d
 ## How to Run
 1. Open PostgreSQL and create a new database called _"etl_db"_.
 2. In the database, run the file _"schema.sql"_ to create your tables.
-3. Create a file called _"config.py"_ in the repo. Set a variable _"omdb_api"_ equal to your OMDB API key.
+3. Create a file called _"config.py"_ in the repo. Set a variable _"api_key"_ equal to your OMDB API key.
 4. Open Jupyter Notebook and run _"netflix_notebook.ipynb", "hulu_notebook.ipynb",_ and _"prime_notebook.ipynb"_.
 5. The tables should be available in PostgreSQL once the notebooks have finished running.
 
